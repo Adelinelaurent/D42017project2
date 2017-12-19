@@ -39,7 +39,7 @@ section {
 }
 
 h1 {
-    font-size: 3em;
+  font-size: 2em;
   margin-bottom: 1em;
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 
 .header-content-block h1 {
-  font-size: 4.25em;
+  font-size: 4.10em;
   margin-bottom: 0
 }
 
@@ -87,6 +87,7 @@ h2 {
 
 .bio-content-block p {
   margin: 1em;
+  text-align: justify;
 }
 
 
@@ -101,13 +102,12 @@ h2 {
 }
 
 
-
-
-
 .comp-section-content {
  display: flex;
  justify-content: space-around;
-}
+ text-align: justify;
+
+ }
 
 .comp-content {
 
@@ -121,7 +121,7 @@ h2 {
 }
 
 .comp-content img {
-  width : 100%;
+  width : 95%;
 }
 
 .comp-content a {
@@ -160,5 +160,9 @@ h2 {
 }
 
 footer {
+  background: #A9A9A9;
+  color : #fff;
+  padding : 2em;
+  font-size: 15px;
 
 }
